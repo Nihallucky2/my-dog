@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+   height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.dog{
+    background-image: url(2.webp);
+    width: 500px;
+    height: 200px;
+    border-radius: 30px 30px;
+    background-size: cover;
+    background-position: center
+    ;
+    
+    align-items: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+
+    
+   
+    
+}
+button{
+    padding:  10px 20px;
+    background: lightgreen;
+    border-radius: 20px;
+    border: none;
+}
